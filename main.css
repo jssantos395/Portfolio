@@ -1,8 +1,9 @@
-/* header */
+/******************************* header *********************************/
 header {
   display: flex;
   border: solid;
   justify-content: space-between;
+  background-color: blue;
 }
 
 .header {
@@ -13,6 +14,7 @@ header {
 .nav {
   margin: 50px;
   text-decoration: none;
+  color: white;
 }
 
 .header-img {
@@ -20,8 +22,15 @@ header {
   height: 100px;
   margin-left: 50px;
 }
-/* header */
-/* body */
+/******************************* header *********************************/
+/******************************* body *********************************/
+
+body {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
 
 .body-img {
   width: 500px;
@@ -37,61 +46,101 @@ header {
   box-shadow: 10px 10px;
 }
 
-.body-img-text {
-  position: absolute;
-  bottom: 400px;
-  right: 160px;
-}
-
-.body-img-text2 {
-  position: absolute;
-  bottom: 350px;
-  right: 160px;
-}
-
-
-
-/* body */
-/* footer */
-
-.footer {
+.body-img-flex {
   display: flex;
   justify-content: space-around;
-  border: solid;
-  margin-top: 50px;
-
+  flex-wrap: wrap;
 }
 
-.footer-img {
-  width: 100px;
-  height: 100px;
-  margin-left: 50px;
-}
+  .body-img-text-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 500px;
+  }
 
-.footer-nav {
+    .body-img-text {
+      display: flex;
+      flex-direction: column;
+      padding-left: 100px;
+    }
+
+/******************************* bio-body *********************************/
+
+
+.bio-mid {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  flex-direction: column;
-  margin: 10px;
+  padding-top: 25px;
+  padding: 25px;
+  margin: 25px;
 }
 
-.nav-footer {
-  text-decoration: none;
-  list-style-type: none;
-}
-
-.email-footer {
-  margin-top: 5px;
+.bio-left {
+  display: flex;
   text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 25px;
+  margin: 25px;
 }
 
-/* footer */
-/* carousel */
+.bio-right {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 25px;
+  margin: 25px;
+}
+
+/******************************* bio-body *********************************/
+/******************************* portfolio *********************************/
+
+.portfolio-cards {
+  margin: 0 50px 50px 50px;
+  padding:  0 50px 50px 50px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio-cards-1 {
+  border: solid;
+  margin: 100px;
+  padding: 100px;
+  display: flex;
+}
+
+/******************************* portfolio *********************************/
+
+/******************************* links *********************************/
+
+.links-cards {
+  margin: 0 50px 50px 50px;
+  padding:  0 50px 50px 50px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.links-cards-1 {
+  border: solid;
+  margin: 100px;
+  padding: 100px;
+  border-radius: 50%;
+}
+
+/******************************* links *********************************/
+
+/******************************* carousel *********************************/
 .carousel {
   position: relative;
   height: 600px;
   width: 80%;
   margin: 0 auto;
+  padding-top: 50px;
 }
 
 .carousel_image {
@@ -155,4 +204,40 @@ header {
   margin: 0 12px;
 }
 
-/* carousel */
+/******************************* carousel *********************************/
+/******************************* body *********************************/
+/******************************* footer *********************************/
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  border: solid;
+  margin-top: 50px;
+  background-color: blue;
+}
+
+.footer-img {
+  width: 100px;
+  height: 100px;
+  margin-left: 50px;
+}
+
+.footer-nav {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.nav-footer {
+  text-decoration: none;
+  list-style-type: none;
+  color: white;
+}
+
+.email-footer {
+  margin-top: 5px;
+  text-align: center;
+}
+
+/******************************* footer *********************************/

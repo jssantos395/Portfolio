@@ -7,7 +7,7 @@
     src="https://code.jquery.com/jquery-3.2.1.min.js"
     integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
     crossorigin="anonymous"></script>
-    <script src="./app.js"></script>
+    <script src="app.js"></script>
     <title>Porfolio</title>
   </head>
   <header>
@@ -22,11 +22,15 @@
   </header>
   <body>
     <!-- https://i.postimg.cc/dVZPBn3N/abstract-paper-free-photo-1175904.jpg -->
-      <section>
+    <section class="body-img-flex">
+      <div class="body-img-text-flex">
         <img class="body-img" src="imgs/meandleah.jpeg" alt="">
-        <h1 class="body-img-text">Jason Santos</h1>
-        <h3 class="body-img-text2">A Portfolio</h3>
-      </section>
+        <div class="body-img-text">
+          <h1>Jason Santos</h1>
+          <h3>A Portfolio</h3>
+        </div>
+      </div>
+    </section>
 
       <section class="carousel">
 
@@ -54,12 +58,11 @@
           <!-- <img class="carousel_button src="imgs/right-arrow.svg" alt=""> -->
         </button>
 
-        <div class="carousel_nav">
+        <!-- <div class="carousel_nav">
           <button class="carousel_indicator type="button" name="button"></button>
           <button class="carousel_indicator type="button" name="button"></button>
           <button class="carousel_indicator type="button" name="button"></button>
-        </div>
-
+        </div> -->
 
       </section>
 
