@@ -144,7 +144,23 @@ body {
  border: solid;
 }
 
+#popup-container {
+  width: 45%;
+  height: 45%;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px #ccc;
+  display: none;
+}
+
+#close-btn {
+  float: right;
+  cursor: pointer;
+}
+
 /******************************* resume *********************************/
+
+
 
 /******************************* carousel *********************************/
 .carousel {
