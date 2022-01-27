@@ -39,11 +39,13 @@ $(() => {
 // show popup
   $('#show-popup-button').click(() => {
     $('#popup-container').show()
+    $('#show-popup-button').hide()
   })
 
 // close pop up
 $('#close-btn').click(() => {
-  $('#popup-container').hide( )
+  $('#popup-container').hide()
+  $('#show-popup-button').show()
 })
 ////////////////////////////////////////////////////////////////////////////
 // RESUME POP UP
