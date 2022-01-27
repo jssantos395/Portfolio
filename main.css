@@ -142,7 +142,7 @@ body {
 .carousel {
   position: relative;
   height: 600px;
-  width: 80%;
+  width: 50%;
   margin: 0 auto;
   padding-top: 50px;
 }
