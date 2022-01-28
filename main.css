@@ -43,7 +43,7 @@ body {
   height: 500px;
   margin-top: 25px;
   margin-bottom: 25px;
-  margin-left: 400px;
+  margin-left: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -136,23 +136,20 @@ body {
 /******************************* links *********************************/
 
 .links-cards {
-  margin: 0 50px 50px 50px;
-  padding:  0 50px 50px 50px;
   display: flex;
-  flex-direction: column;
   flex-wrap: wrap;
 }
 
 .links-cards-1 {
   border: solid;
-  border-radius: 50%;
-  background-color: blue;
-  box-shadow: 5px 5px teal;
-  color: white;
-  margin: 15px;
-  padding: 15px;
-
+  margin: 100px;
+  padding: 100px;
+  display: flex;
+  border-radius: 18%;
+  background-color: white;
+  box-shadow: 5px 5px 15px rgb(0,0,0,.9)
 }
+
 
 /******************************* links *********************************/
 
@@ -179,6 +176,8 @@ body {
 #show-popup-button {
   background-color: blue;
   color: white;
+  width:auto;
+  height: 50px;
 }
 
 /******************************* resume *********************************/
