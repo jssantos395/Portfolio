@@ -3,9 +3,14 @@ header {
   display: flex;
   border: solid;
   justify-content: space-between;
-  background-color: blue;
+  background-color: #5656c7;
   width: 100%;
   box-shadow: 5px 5px 15px rgb(0,0,0,.9)
+}
+
+.nav:hover {
+  color: green;
+  background-color: white;
 }
 
 .header {
@@ -34,7 +39,7 @@ body {
   font-family: 'Dongle', sans-serif;
   width: 100%;
   height: 100%;
-  background-color: grey;
+  background-color: #a3a3b3;
 }
 
 
@@ -160,9 +165,9 @@ body {
 }
 
 #popup-container {
-  width: 45%;
+  /* width: 45%;
   height: 45%;
-  padding: 20px;
+  padding: 20px; */
   border: 1px solid #ccc;
   box-shadow: 0 0 10px #ccc;
   display: none;
@@ -247,7 +252,7 @@ body {
   justify-content: space-around;
   border: solid;
   margin-top: 50px;
-  background-color: blue;
+  background-color: #5656c7;
   box-shadow: 5px 5px 15px rgb(0,0,0,.9)
 }
 
