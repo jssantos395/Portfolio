@@ -133,9 +133,29 @@ body {
   display: flex;
   border-radius: 18%;
   background-color: white;
-  box-shadow: 5px 5px 15px rgb(0,0,0,.9)
+  box-shadow: 5px 5px 15px rgb(0,0,0,.9);
+  background: url(imgs/RPS.png);
 }
 
+.portfolio-cards-2 {
+  border: solid;
+  margin: 100px;
+  padding: 100px;
+  display: flex;
+  border-radius: 18%;
+  background-color: white;
+  box-shadow: 5px 5px 15px rgb(0,0,0,.9);
+}
+
+.portfolio-cards-3 {
+  border: solid;
+  margin: 100px;
+  padding: 100px;
+  display: flex;
+  border-radius: 18%;
+  background-color: white;
+  box-shadow: 5px 5px 15px rgb(0,0,0,.9);
+}
 /******************************* portfolio *********************************/
 
 /******************************* links *********************************/
@@ -275,9 +295,53 @@ body {
   color: white;
 }
 
+.nav-footer:hover {
+  color: green;
+  background: white;
+}
+
 .email-footer {
   margin-top: 5px;
   text-align: center;
 }
 
 /******************************* footer *********************************/
+/******************************* mobile *********************************/
+
+@media screen and (max-width: 1100px) {
+
+  .dropdown {
+    display: block;
+    height: 40px;
+    width: 100%;
+    background: url(imgs/dropdown2.png) no-repeat 99% center;
+    cursor: pointer;
+    padding-top: 50px;
+    margin-left: 200px;
+  }
+
+header div {
+  overflow: hidden;
+  background: #505050;
+  height: 0;
+}
+
+header div.open{
+  height: auto;
+}
+
+header div a {
+  float: none;
+  text-align: left;
+  width: 100%;
+  margin: 0;
+  display: block;
+  color: #fff;
+  padding: 10%;
+  border-bottom: 1px solid #404040;
+}
+}
+
+
+
+/******************************* mobile *********************************/
